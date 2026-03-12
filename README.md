@@ -1,4 +1,5 @@
 # PAES-S: Priority-Aware Edge Scheduler with Staleness Awareness
+Kushal Khemani & Sujal Kosta
 
 Experimental framework for the paper:
 **"Staleness-Aware Scheduling for Multi-Model Edge AI: When Minimizing Queue
