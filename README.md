@@ -109,9 +109,5 @@ To use real PyTorch inference:
 
 ## Citation
 
-If you use this framework, please cite the original PAES paper:
+If you use this framework, please cite the paper:
 
-```
-Khemani, K., Maniar, R., & Lokhande, A. (2024). PAES: Priority-Aware Adaptive
-Scheduling for Multi-Model Edge AI Systems. IEEE Embedded Systems Letters.
-```
