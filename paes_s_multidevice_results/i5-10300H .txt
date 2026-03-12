@@ -1,0 +1,380 @@
+Microsoft Windows [Version 10.0.26200.7840]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Sujal>cd Desktop
+
+C:\Users\Sujal\Desktop>cd Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main
+
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main>pip install -r requirements.txt
+Collecting numpy>=1.24 (from -r requirements.txt (line 2))
+  Downloading numpy-2.4.3-cp314-cp314-win_amd64.whl.metadata (6.6 kB)
+Collecting pandas>=2.0 (from -r requirements.txt (line 3))
+  Downloading pandas-3.0.1-cp314-cp314-win_amd64.whl.metadata (19 kB)
+Collecting matplotlib>=3.7 (from -r requirements.txt (line 4))
+  Downloading matplotlib-3.10.8-cp314-cp314-win_amd64.whl.metadata (52 kB)
+Collecting tqdm>=4.65 (from -r requirements.txt (line 5))
+  Downloading tqdm-4.67.3-py3-none-any.whl.metadata (57 kB)
+Collecting scipy>=1.11 (from -r requirements.txt (line 6))
+  Downloading scipy-1.17.1-cp314-cp314-win_amd64.whl.metadata (60 kB)
+Collecting python-dateutil>=2.8.2 (from pandas>=2.0->-r requirements.txt (line 3))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting tzdata (from pandas>=2.0->-r requirements.txt (line 3))
+  Downloading tzdata-2025.3-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting contourpy>=1.0.1 (from matplotlib>=3.7->-r requirements.txt (line 4))
+  Downloading contourpy-1.3.3-cp314-cp314-win_amd64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib>=3.7->-r requirements.txt (line 4))
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib>=3.7->-r requirements.txt (line 4))
+  Downloading fonttools-4.62.0-cp314-cp314-win_amd64.whl.metadata (119 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib>=3.7->-r requirements.txt (line 4))
+  Downloading kiwisolver-1.5.0-cp314-cp314-win_amd64.whl.metadata (5.2 kB)
+Collecting packaging>=20.0 (from matplotlib>=3.7->-r requirements.txt (line 4))
+  Downloading packaging-26.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pillow>=8 (from matplotlib>=3.7->-r requirements.txt (line 4))
+  Downloading pillow-12.1.1-cp314-cp314-win_amd64.whl.metadata (9.0 kB)
+Collecting pyparsing>=3 (from matplotlib>=3.7->-r requirements.txt (line 4))
+  Downloading pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Collecting colorama (from tqdm>=4.65->-r requirements.txt (line 5))
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas>=2.0->-r requirements.txt (line 3))
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading numpy-2.4.3-cp314-cp314-win_amd64.whl (12.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 11.0 MB/s  0:00:01
+Downloading pandas-3.0.1-cp314-cp314-win_amd64.whl (9.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 7.0 MB/s  0:00:01
+Downloading matplotlib-3.10.8-cp314-cp314-win_amd64.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 7.8 MB/s  0:00:01
+Downloading tqdm-4.67.3-py3-none-any.whl (78 kB)
+Downloading scipy-1.17.1-cp314-cp314-win_amd64.whl (37.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.3/37.3 MB 11.1 MB/s  0:00:03
+Downloading contourpy-1.3.3-cp314-cp314-win_amd64.whl (232 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.62.0-cp314-cp314-win_amd64.whl (2.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 11.3 MB/s  0:00:00
+Downloading kiwisolver-1.5.0-cp314-cp314-win_amd64.whl (75 kB)
+Downloading packaging-26.0-py3-none-any.whl (74 kB)
+Downloading pillow-12.1.1-cp314-cp314-win_amd64.whl (7.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.2/7.2 MB 11.4 MB/s  0:00:00
+Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Downloading tzdata-2025.3-py2.py3-none-any.whl (348 kB)
+Installing collected packages: tzdata, six, pyparsing, pillow, packaging, numpy, kiwisolver, fonttools, cycler, colorama, tqdm, scipy, python-dateutil, contourpy, pandas, matplotlib
+   ━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━  5/16 [numpy]  WARNING: The scripts f2py.exe and numpy-config.exe are installed in 'C:\Users\Sujal\AppData\Local\Python\pythoncore-3.14-64\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━  7/16 [fonttools]  WARNING: The scripts fonttools.exe, pyftmerge.exe, pyftsubset.exe and ttx.exe are installed in 'C:\Users\Sujal\AppData\Local\Python\pythoncore-3.14-64\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━ 10/16 [tqdm]  WARNING: The script tqdm.exe is installed in 'C:\Users\Sujal\AppData\Local\Python\pythoncore-3.14-64\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed colorama-0.4.6 contourpy-1.3.3 cycler-0.12.1 fonttools-4.62.0 kiwisolver-1.5.0 matplotlib-3.10.8numpy-2.4.3 packaging-26.0 pandas-3.0.1 pillow-12.1.1 pyparsing-3.3.2 python-dateutil-2.9.0.post0 scipy-1.17.1 six-1.17.0 tqdm-4.67.3 tzdata-2025.3
+
+[notice] A new release of pip is available: 25.3 -> 26.0.1
+[notice] To update, run: C:\Users\Sujal\AppData\Local\Python\pythoncore-3.14-64\python.exe -m pip install --upgrade pip
+
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main>python run_all.py --quick
+
+████████████████████████████████████████████████████████████
+  PAES — Priority-Aware Edge Scheduler
+  Full Experimental Evaluation
+████████████████████████████████████████████████████████████
+  [QUICK MODE] Running with reduced task counts
+  Experiments: [1, 2, 3, 4, 5]
+  Models:      ['mobilenet_v2', 'yolov5n', 'whisper_tiny', 'distilbert_sentiment', 'midas_small']
+  N tasks:     600 (main experiments)
+
+
+Loading models...
+  ⚠ mobilenet_v2: PyTorch not found — using simulator
+  ⚠ yolov5n: ultralytics not found — using simulator
+  ⚠ whisper_tiny: openai-whisper not found — using simulator
+  ⚠ distilbert_sentiment: transformers not found — using simulator
+  ⚠ midas_small: MiDaS not available — using simulator
+  → 5 models ready
+
+
+────────────────────────────────────────────────────────────
+RUNNING EXPERIMENTS
+────────────────────────────────────────────────────────────
+
+============================================================
+Experiment 1 — Latency Under Multi-Model Load
+  600 tasks, 5 models, 7 schedulers
+============================================================
+Schedulers: 100%|████████████████████████████████████████████████████████████████████████| 7/7 [06:02<00:00, 51.76s/it]
+
+  Results:
+                 avg_latency_ms  p95_latency_ms  p99_latency_ms  throughput_tps  miss_rate
+scheduler
+fifo                      85.54          163.56          190.89           11.69        0.0
+round_robin               86.02          161.76          185.27           11.62        0.0
+static_priority           85.31          160.02          180.44           11.72        0.0
+edf                       87.57          168.09          196.56           11.42        0.0
+pq_deadline               86.62          169.24          186.27           11.54        0.0
+qos                       85.04          161.37          193.71           11.76        0.0
+paes                      87.42          170.42          193.64           11.44        0.0
+  ✓ Exp 1 saved → results/exp1_latency.csv
+
+============================================================
+Experiment 2 — Deadline Miss Rate vs Load Level
+============================================================
+  Load 'low' (30 tasks) — done
+  Load 'medium' (80 tasks) — done
+  Load 'high' (160 tasks) — done
+  Load 'extreme' (300 tasks) — done
+
+  Miss Rate by Load:
+scheduler   edf  fifo  paes  pq_deadline  qos  round_robin  static_priority
+load_level
+low         0.0   0.0   0.0          0.0  0.0          0.0              0.0
+medium      0.0   0.0   0.0          0.0  0.0          0.0              0.0
+high        0.0   0.0   0.0          0.0  0.0          0.0              0.0
+extreme     0.0   0.0   0.0          0.0  0.0          0.0              0.0
+  ✓ Exp 2 saved → results/exp2_deadline.csv
+
+============================================================
+Experiment 3 — Energy Consumption Per Task
+============================================================
+Schedulers: 100%|████████████████████████████████████████████████████████████████████████| 7/7 [05:53<00:00, 50.45s/it]
+
+  Energy Results:
+                 avg_energy_mj  total_energy_mj  n_tasks  relative_energy
+scheduler
+fifo                 1024.7592        614855.52      600            1.000
+round_robin          1037.0426        622225.56      600            1.012
+static_priority      1028.9610        617376.58      600            1.004
+edf                  1055.1197        633071.80      600            1.030
+pq_deadline          1041.6939        625016.34      600            1.017
+qos                  1034.1442        620486.49      600            1.009
+paes                 1061.3424        636805.42      600            1.036
+  ✓ Exp 3 saved → results/exp3_energy.csv
+
+============================================================
+Experiment 4 — Burst Workload Recovery
+============================================================
+  fifo: burst miss=0.0%, recovery overshoot=-0.3%
+  round_robin: burst miss=0.0%, recovery overshoot=8.5%
+  static_priority: burst miss=0.0%, recovery overshoot=-0.0%
+  edf: burst miss=0.0%, recovery overshoot=56.2%
+  pq_deadline: burst miss=0.0%, recovery overshoot=0.7%
+  qos: burst miss=0.0%, recovery overshoot=6.6%
+  paes: burst miss=0.0%, recovery overshoot=19.9%
+  ✓ Exp 4 saved → results/exp4_burst.csv
+
+============================================================
+Experiment 5 — PAES Sensitivity Analysis (α/β/γ sweep)
+============================================================
+Configs: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [00:21<00:00,  3.11s/it]
+
+  Sensitivity Results:
+                avg_latency_ms  p95_latency_ms  miss_rate  avg_energy_mj
+config
+balanced                 83.95          150.28        0.0      1021.8460
+priority-heavy           84.32          140.42        0.0      1026.7882
+latency-heavy            84.47          166.46        0.0      1030.5968
+energy-heavy             82.35          145.84        0.0      1000.1022
+no-priority              84.59          164.34        0.0      1033.6706
+no-latency               79.17          125.11        0.0       962.6609
+no-energy                88.08          156.45        0.0      1074.6070
+  ✓ Exp 5 saved → results/exp5_sensitivity.csv
+
+────────────────────────────────────────────────────────────
+GENERATING FIGURES
+────────────────────────────────────────────────────────────
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main\figures.py:93: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  ax.set_xticklabels([LABELS[s] for s in SCHEDULERS], rotation=15, ha="right")
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main\figures.py:93: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  ax.set_xticklabels([LABELS[s] for s in SCHEDULERS], rotation=15, ha="right")
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main\figures.py:93: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  ax.set_xticklabels([LABELS[s] for s in SCHEDULERS], rotation=15, ha="right")
+  Saved figures\fig1_latency.png
+  Saved figures\fig2_deadline.png
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main\figures.py:173: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  axes[0].set_xticklabels([LABELS[s] for s in SCHEDULERS], rotation=15, ha="right")
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main\figures.py:193: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  axes[1].set_xticklabels([LABELS[s] for s in SCHEDULERS], rotation=15, ha="right")
+  Saved figures\fig3_energy.png
+  Saved figures\fig4_burst.png
+  Saved figures\fig5_sensitivity.png
+
+  Generating per-model heatmap...
+  Saved figures\fig6_per_model_heatmap.png
+
+────────────────────────────────────────────────────────────
+SUMMARY TABLE
+────────────────────────────────────────────────────────────
+
+======================================================================
+TABLE 1 — Summary Results
+======================================================================
+                 Avg Lat (ms)  P95 Lat (ms)  Throughput (t/s) Miss Rate @high Rel Energy
+Scheduler
+FIFO                    85.54        163.56             11.69            0.0%      1.00×
+Round Robin             86.02        161.76             11.62            0.0%      1.01×
+Static Priority         85.31        160.02             11.72            0.0%      1.00×
+EDF                     87.57        168.09             11.42            0.0%      1.03×
+PQ+Deadline             86.62        169.24             11.54            0.0%      1.02×
+QoS                     85.04        161.37             11.76            0.0%      1.01×
+PAES (ours)             87.42        170.42             11.44            0.0%      1.04×
+======================================================================
+
+████████████████████████████████████████████████████████████
+  All done in 44.0 minutes
+  Figures → figures/
+  Raw CSVs → results/
+████████████████████████████████████████████████████████████
+
+
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main>python run_all.py
+
+████████████████████████████████████████████████████████████
+  PAES — Priority-Aware Edge Scheduler
+  Full Experimental Evaluation
+████████████████████████████████████████████████████████████
+  Experiments: [1, 2, 3, 4, 5]
+  Models:      ['mobilenet_v2', 'yolov5n', 'whisper_tiny', 'distilbert_sentiment', 'midas_small']
+  N tasks:     600 (main experiments)
+
+
+Loading models...
+  ⚠ mobilenet_v2: PyTorch not found — using simulator
+  ⚠ yolov5n: ultralytics not found — using simulator
+  ⚠ whisper_tiny: openai-whisper not found — using simulator
+  ⚠ distilbert_sentiment: transformers not found — using simulator
+  ⚠ midas_small: MiDaS not available — using simulator
+  → 5 models ready
+
+
+────────────────────────────────────────────────────────────
+RUNNING EXPERIMENTS
+────────────────────────────────────────────────────────────
+
+============================================================
+Experiment 1 — Latency Under Multi-Model Load
+  600 tasks, 5 models, 7 schedulers
+============================================================
+Schedulers: 100%|████████████████████████████████████████████████████████████████████████| 7/7 [06:02<00:00, 51.80s/it]
+
+  Results:
+                 avg_latency_ms  p95_latency_ms  p99_latency_ms  throughput_tps  miss_rate
+scheduler
+fifo                      85.54          163.74          190.75           11.69        0.0
+round_robin               86.03          161.62          184.92           11.62        0.0
+static_priority           85.33          159.86          180.29           11.72        0.0
+edf                       87.56          168.08          196.38           11.42        0.0
+pq_deadline               86.87          171.77          187.90           11.51        0.0
+qos                       85.10          160.57          194.08           11.75        0.0
+paes                      87.49          170.34          193.53           11.43        0.0
+  ✓ Exp 1 saved → results/exp1_latency.csv
+
+============================================================
+Experiment 2 — Deadline Miss Rate vs Load Level
+============================================================
+  Load 'low' (30 tasks) — done
+  Load 'medium' (80 tasks) — done
+  Load 'high' (160 tasks) — done
+  Load 'extreme' (300 tasks) — done
+
+  Miss Rate by Load:
+scheduler   edf  fifo  paes  pq_deadline  qos  round_robin  static_priority
+load_level
+low         0.0   0.0   0.0          0.0  0.0          0.0              0.0
+medium      0.0   0.0   0.0          0.0  0.0          0.0              0.0
+high        0.0   0.0   0.0          0.0  0.0          0.0              0.0
+extreme     0.0   0.0   0.0          0.0  0.0          0.0              0.0
+  ✓ Exp 2 saved → results/exp2_deadline.csv
+
+============================================================
+Experiment 3 — Energy Consumption Per Task
+============================================================
+Schedulers: 100%|████████████████████████████████████████████████████████████████████████| 7/7 [05:53<00:00, 50.44s/it]
+
+  Energy Results:
+                 avg_energy_mj  total_energy_mj  n_tasks  relative_energy
+scheduler
+fifo                 1024.4136        614648.15      600            1.000
+round_robin          1036.8418        622105.11      600            1.012
+static_priority      1028.5251        617115.06      600            1.004
+edf                  1054.8216        632892.93      600            1.030
+pq_deadline          1043.6477        626188.62      600            1.019
+qos                  1033.7840        620270.40      600            1.009
+paes                 1061.0170        636610.18      600            1.036
+  ✓ Exp 3 saved → results/exp3_energy.csv
+
+============================================================
+Experiment 4 — Burst Workload Recovery
+============================================================
+  fifo: burst miss=0.0%, recovery overshoot=-0.4%
+  round_robin: burst miss=0.0%, recovery overshoot=8.6%
+  static_priority: burst miss=0.0%, recovery overshoot=0.1%
+  edf: burst miss=0.0%, recovery overshoot=56.1%
+  pq_deadline: burst miss=0.0%, recovery overshoot=0.6%
+  qos: burst miss=0.0%, recovery overshoot=6.7%
+  paes: burst miss=0.0%, recovery overshoot=19.9%
+  ✓ Exp 4 saved → results/exp4_burst.csv
+
+============================================================
+Experiment 5 — PAES Sensitivity Analysis (α/β/γ sweep)
+============================================================
+Configs: 100%|███████████████████████████████████████████████████████████████████████████| 7/7 [01:34<00:00, 13.55s/it]
+
+  Sensitivity Results:
+                avg_latency_ms  p95_latency_ms  miss_rate  avg_energy_mj
+config
+balanced                 89.69          164.90        0.0      1114.9486
+priority-heavy           92.07          163.29        0.0      1144.1101
+latency-heavy            93.28          165.89        0.0      1157.8434
+energy-heavy             89.25          172.12        0.0      1109.1276
+no-priority              90.34          168.12        0.0      1125.4453
+no-latency               89.17          165.94        0.0      1109.1771
+no-energy                88.10          159.61        0.0      1095.4224
+  ✓ Exp 5 saved → results/exp5_sensitivity.csv
+
+────────────────────────────────────────────────────────────
+GENERATING FIGURES
+────────────────────────────────────────────────────────────
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main\figures.py:93: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  ax.set_xticklabels([LABELS[s] for s in SCHEDULERS], rotation=15, ha="right")
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main\figures.py:93: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  ax.set_xticklabels([LABELS[s] for s in SCHEDULERS], rotation=15, ha="right")
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main\figures.py:93: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  ax.set_xticklabels([LABELS[s] for s in SCHEDULERS], rotation=15, ha="right")
+  Saved figures\fig1_latency.png
+  Saved figures\fig2_deadline.png
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main\figures.py:173: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  axes[0].set_xticklabels([LABELS[s] for s in SCHEDULERS], rotation=15, ha="right")
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main\figures.py:193: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+  axes[1].set_xticklabels([LABELS[s] for s in SCHEDULERS], rotation=15, ha="right")
+  Saved figures\fig3_energy.png
+  Saved figures\fig4_burst.png
+  Saved figures\fig5_sensitivity.png
+
+  Generating per-model heatmap...
+  Saved figures\fig6_per_model_heatmap.png
+
+────────────────────────────────────────────────────────────
+SUMMARY TABLE
+────────────────────────────────────────────────────────────
+
+======================================================================
+TABLE 1 — Summary Results
+======================================================================
+                 Avg Lat (ms)  P95 Lat (ms)  Throughput (t/s) Miss Rate @high Rel Energy
+Scheduler
+FIFO                    85.54        163.74             11.69            0.0%      1.00×
+Round Robin             86.03        161.62             11.62            0.0%      1.01×
+Static Priority         85.33        159.86             11.72            0.0%      1.00×
+EDF                     87.56        168.08             11.42            0.0%      1.03×
+PQ+Deadline             86.87        171.77             11.51            0.0%      1.02×
+QoS                     85.10        160.57             11.75            0.0%      1.01×
+PAES (ours)             87.49        170.34             11.43            0.0%      1.04×
+======================================================================
+
+████████████████████████████████████████████████████████████
+  All done in 45.3 minutes
+  Figures → figures/
+  Raw CSVs → results/
+████████████████████████████████████████████████████████████
+
+
+C:\Users\Sujal\Desktop\Priority-Aware-Adaptive-Scheduling-for-Multi-Model-Edge-AI-Systems-main>
